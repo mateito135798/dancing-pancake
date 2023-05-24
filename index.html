@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <title>p5.play.Mario</title>
+    <!-- link p5.js and its addons like p5.dom.js or p5.sound.js -->
+    <script src="lib/p5.min.js" type="text/javascript"></script>
+    <!-- link p5.play.js -->
+    <script src="lib/p5.play.js" type="text/javascript"></script>
+    <!-- link p5.dom.js -->
+    <script src="lib/p5.dom.js" type="text/javascript"></script>
+
+    <!-- link your javascript sketch -->
+    <script src="scripts/sprites.js" type="text/javascript"></script>
+
+    <script src="main.js" type="text/javascript"></script>
+
+    <script src="characters_environment.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+
+  </head>
+  <body>
+    <div class="btn-primary encabezado">
+<h3>Supra Mayro 64</h3>
+<button class="btn btn-primary" data-toggle="modal" data-target="#evo"   >how2plai</button>
+</div>
+     
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<button class="btn btn-success" id="stert" onclick="startGame()">stert</button>
+<br>
+<br>
+<h3 id="status" class="btn btn-warning"></h3>
+<div id="canvas"> 
+</div>
+
+
+
+
+
+<div id="consola">
+</div>
+<h4 id="evr">fuente de código original:<a href="https://github.com/linuk"></a>créditos dell juego:mario</h4>
+
+<div id="evo" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close btn btn-danger" data-dismiss="modal">EXIT</button>
+<h4>instrocciones</h4>
+</div>
+<div class="modal-body">
+<img src="right.png" class="INSTRUCTIONIMAGE">
+<img src="left.png" class="INSTRUCTIONIMAGE">
+<img src="jump.png" class="INSTRUCTIONIMAGE">
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+  </body>
+</html>

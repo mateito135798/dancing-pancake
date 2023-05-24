@@ -1,0 +1,16 @@
+#evr{
+background-color: rgb(255, 90, 0);
+  line-height:2;
+margin:0px;
+  }
+.INSTRUCTIONIMAGE{
+display:inline-block; 
+width: 45%;
+}
+video{
+background:url("game_console.png");
+background-size:cover;
+background-position:center;
+padding:25px;
+}
+
